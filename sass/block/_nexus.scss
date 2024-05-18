@@ -1,0 +1,41 @@
+.Nexus{
+    width: 100%;
+    padding: 100px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    &__title{
+        width: 100%;
+        font-size: 48px;
+        color: #fff;
+    }
+    &__cards{
+        height: 264px;
+        padding: 30px 70px;
+        text-align: center;
+        width: 30%;
+        background: $bg-gold;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 400px;
+        transition: .4s;
+        &:hover{
+            cursor: pointer;
+            transform: scale(1.1);
+            &:active{
+                transform: scale(.9);
+            }
+        }
+        .card{
+            display: flex;
+            flex-direction: column;
+            gap: 27px;
+            align-items: center;
+            p{
+                font-size: 24px;
+            }
+        }
+    }
+}

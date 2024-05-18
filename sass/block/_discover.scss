@@ -1,0 +1,136 @@
+.main {
+  width: 100%;
+  background: $bg-dark;
+  .discover{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding-bottom: 82px;
+    .discover__collection {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+      .discover__title {
+        width: 100%;
+        b {
+          font-size: 48px;
+          color: #fff;
+        }
+      }
+    }    
+
+
+
+
+
+    .discover__texts {
+      display: flex;
+      width: 100%;
+      .right__text {
+        width: 50%;
+        p {
+          color: #fff;
+          font-size: 36px;
+        }
+      }
+      .left__text {
+        width: 50%;
+        p {
+          font-size: 36px;
+          color: #fff;
+        }
+      }
+    }
+
+
+
+
+
+
+
+
+
+
+    .discover__tap {
+      width: 100%;
+      display: flex;
+      .discover__btn {
+        flex: 1;
+        display: flex;
+        gap: 16px;
+        .button {
+          padding: 24px;
+          background: #252525;
+          color: #fff;
+          border: none;
+          transition: .2s;
+          &:active{
+            background: #5224B5;
+          }
+          &:active{
+            transform: scale(.9);
+          }
+        }
+      }
+      .discover__icon{
+        padding: 16px;
+          background: #252525;
+          transition: .2s;
+          &:active{
+            background: #5224B5;
+            transform: scale(.9);
+          }
+          &:hover{
+cursor: pointer;
+          }
+      }
+    }
+    .discover__pandas{
+      width: 100%;
+      background: $bg-dark;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 40px;
+      .discover__cards{
+        width: 30%;
+        background: #5224B5;
+        display: flex;
+        flex-direction: column;
+        transition: .5s;
+        &:hover{
+          cursor: pointer;
+          transform: scale(1.1);
+        }
+        .discover__image{
+          width: 100%;
+        }
+        .discover__title{
+          width: 100%;
+          background: #5224B5;
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+          padding: 15px 0 24px 24px;
+          .discover__icon{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+          }
+          .discover__text{
+            color: #fff;
+            font-size: 20px;
+          }
+          .discover__autor{
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            p{
+              color: #fff;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,79 @@
+.footer {
+  width: 100%;
+  position: relative;
+  .footer__wrapper {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    left: 0;
+    z-index: 111;
+    .footer__icons {
+      width: 24%;
+      background: #5224b5;
+      height: 290px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      gap: 30px;
+      .icons {
+        transition: 0.2s;
+        &:hover {
+          cursor: pointer;
+        }
+        &:active {
+          transform: scale(0.9);
+        }
+      }
+      b {
+        font-size: 28.8px;
+        color: #fff;
+      }
+    }
+    .footer__logo {
+      width: 40%;
+      background: #5224b5;
+      height: 290px;
+      padding: 87px 140px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 30px;
+      p {
+        font-size: 24px;
+        color: #fff;
+      }
+    }
+    .footer__cards {
+      width: 12%;
+      background: #5224b5;
+      height: 290px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 16px;
+      text-align: center;
+      b {
+        font-size: 28.8px;
+        color: #fff;
+      }
+      .footer__collection {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        .footer__title {
+          color: #fff;
+          transition: 0.2s;
+          &:active {
+            transform: scale(0.9);
+          }
+          &:hover {
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}

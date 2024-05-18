@@ -1,0 +1,102 @@
+.main {
+  width: 100%;
+  background: $bg-dark;
+  .upload {
+    width: 100%;
+    display: flex;
+    padding-bottom: 90px;
+    flex-direction: column;
+    gap: 300px;
+    .upload__wrapper {
+      width: 100%;
+
+      display: flex;
+      gap: 40px;
+      .upload__sub {
+        width: 31%;
+        transition: .5s;
+        &:hover{
+          cursor: pointer;
+          transform: scale(1.1);
+        }
+        .upload__text {
+          width: 100%;
+          font-size: 24px;
+          color: #7ffa8a;
+        }
+        .upload__cards {
+          width: 100%;
+          padding: 24px;
+          display: flex;
+          flex-direction: column;
+          gap: 24px;
+          background: #5224b5;
+          .img {
+            width: 51px;
+            height: 61px;
+          }
+          p {
+            color: #fff;
+            font-size: 24px;
+          }
+        }
+      }
+    }
+    .upload__title {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+      b {
+        color: #fff;
+        font-size: 48px;
+      }
+      p {
+        font-size: 32px;
+        max-width: 700px;
+        color: #fff;
+      }
+    }
+    .upload__steps {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 40px;
+      .upload__wrapper {
+        width: 100%;
+        display: flex;
+        gap: 40px;
+        .upload__sub {
+          width: 31%;
+          transition: .5s;
+          &:hover{
+            cursor: pointer;
+            transform: scale(1.1);
+          }
+          .upload__text {
+            width: 31%;
+            font-size: 24px;
+            color: #7ffa8a;
+          }
+          .upload__cards {
+            width: 100%;
+            padding: 24px;
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            background: #5224b5;
+            padding-top: -50px;
+            img {
+              width: 51px;
+              height: 61px;
+            }
+            p {
+              color: #fff;
+              font-size: 24px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
